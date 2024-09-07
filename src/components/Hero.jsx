@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import curve from "../assets/hero/curve.png";
+import curve from "../assets/images/curve.png";
 
 const Hero = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import testimage from "../assets/hero/robot.png";
+import testimage from "../assets/images/robot.svg";
 
 const About = () => {
   return (
-    <div className="mt-[200px] mb-[200px] text-white grid grid-cols-2 gap-4 items-center justify-center max-md:grid-cols-1 max-w-[86rem] px-16 max-sm:px-6 w-full mx-auto">
+    <div className="mt-[200px] sm:mt-[100px]  mb-[200px] sm:mb-[100px] text-white grid grid-cols-2 gap-4 items-center justify-center max-md:grid-cols-1 max-w-[86rem] px-16 max-sm:px-6 w-full mx-auto">
       <div className="order-2 max-md:order-1 w-full h-full flex justify-center max-md:justify-start items-center">
         <img
           src={testimage}

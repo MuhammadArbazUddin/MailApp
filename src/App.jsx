@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Partners from "./components/Partners";
 import About from "./components/About";
 import CallToAction from "./components/CallToAction";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </div>
         <div className="border-b border-gray-500 z-1">
           <CallToAction />
+        </div>
+        <div className="border-b border-gray-500 z-1">
+          <Pricing />
         </div>
       </div>
       <ButtonGradient />
